@@ -19,7 +19,6 @@
         <allure.version>2.15.0</allure.version>
         <aspectj.version>1.9.7</aspectj.version>
         <rest-assured>4.4.0</rest-assured>
-        <gson.version>2.9.0</gson.version>
         <javafaker.version>1.0.2</javafaker.version>
         <selenide.version>6.2.1</selenide.version>
         <selenium-java.version>4.1.1</selenium-java.version>
@@ -50,12 +49,6 @@
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-rest-assured</artifactId>
             <version>${allure.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.google.code.gson</groupId>
-            <artifactId>gson</artifactId>
-            <version>${gson.version}</version>
         </dependency>
 
         <dependency>
